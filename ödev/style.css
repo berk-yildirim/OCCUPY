@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    box-sizing: border;
+}
+
+.container {
+    width: 1000px;
+   
+
+}
+
+.container p {
+    font-family: system-ui;
+}
+
+.container h3 {
+
+    font-family: "Gill Sans", sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    margin: 0px;
+    padding: 10px 50px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar h2 {
+    margin: 10px;
+    margin-right: 120px;
+    font-family: Georgia, serif;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 0px 4px;
+    font-size: 8px;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 10px;
+    color: black;
+
+}
+
+.menu li a:hover {
+    color: chartreuse;
+}
+
+hr {
+    width: 100%;
+
+    border: 1px solid rgb(187, 218, 49);
+}
+
+
+
+
+
+
+.kutu1 {
+    position: relative;
+    text-align: center;
+    color: black;
+
+}
+
+.kutu1_icerik {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+}
+
+.kutu1_icerik h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+.kutu1_icerik p {
+
+    font-size: 13px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: start;
+
+}
+
+.button p {
+    margin: 5px;
+    padding: 8px 20px;
+    border-radius: 3px;
+
+}
+
+.button_içerik {
+    background-color: rgb(187, 218, 49);
+}
+
+.button_içerik:hover {
+    background-color: rgb(166, 199, 22);
+}
+
+
+
+
+
+
+
+
+
+.kutu2 img {
+    width: 500px;
+
+
+}
+
+.kutu2 {
+    position: relative;
+    width: 1000px;
+    color: black;
+
+    margin: auto;
+}
+
+.kutu2_icerik {
+
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    transform: translate(100%, -60%);
+    width: 500px;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 11px;
+
+
+}
+
+.kutu2_icerik h3 {
+
+    font-size: 17px;
+}
+
+
+
+.kutu2_icerik_1 {
+
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    transform: translate(100%, 40%);
+    font-size: 11px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+.kutu2_icerik_1 h3 {
+
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+.kutu3 {
+    position: relative;
+    width: 1000px;
+
+
+    margin: auto;
+
+}
+
+.kutu3 img {
+    width: 500px;
+
+    position: relative;
+
+    left: 500px;
+}
+
+.kutu3_içerik {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 500px;
+    padding: 80px;
+    font-size: 13px;
+    transform: translate(0%, -100%);
+
+}
+
+.kutu3_içerik h3 {
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+.kutu4 {
+    width: 1000px;
+    position: relative;
+}
+
+.kutu4 img {
+    width: 500px;
+
+}
+
+.kutu4_içerik {
+    position: absolute;
+    transform: translate(100%, -250%);
+    width: 500px;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+
+
+
+.kutu5 {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+
+
+}
+
+.kutu5 img {
+    width: 333.3px;
+
+}
+
+
+
+.project-1_içerik {
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 100px;
+    transform: translate(-0%, -290%);
+}
+
+.project-1_içerik p {
+    font-size: 12px;
+}
+.project-1_içerik h3 {
+    font-size: 16px;
+}
+
+.project-1 img {
+    position: sticky;
+
+}
+
+.project-2 img {
+
+    position: sticky;
+}
+
+
+.project-3 img {
+
+    position: sticky;
+
+}
+
+
+
+
+
+.kutu6 {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+
+
+}
+
+.kutu6 img {
+    width: 333.3px;
+
+}
+
+
+
+.project-4_içerik {
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 100px;
+    transform: translate(-0%, -290%);
+}
+
+.project-4_içerik p {
+    font-size: 12px;
+}
+.project-4_içerik h3 {
+    font-size: 16px;
+}
+
+.project-4 img {
+    position: sticky;
+
+}
+
+.project-5 img {
+
+    position: sticky;
+}
+
+
+.project-6 img {
+
+    position: sticky;
+
+}
+
+
+
+
+.kutu7 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.team {
+    display: flex;
+    width: 1000px;
+}
+
+.image-container {
+    position: relative;
+    width: 23%;
+    overflow: hidden;
+    width: 250px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent 0%, white 95%);
+    display: block;
+
+    align-items: center;
+    color: rgb(61, 56, 56);
+     font-size: 12;
+
+   
+}
+
+.overlay h3 {
+    color: rgb(41, 36, 36);
+}
+
+.overlay h3 {
+    margin-left: 30px;
+    transform: translate(6%, 250%);
+}
+.overlay p {
+    margin-left: 30px;
+    transform: translate(6%, 250%);
+}
+
+
+
+
+
+.kutu8{
+    width: 1000px;
+    background-color: rgb(187, 218, 49);
+    height: 400px;
+}
+
+.kutu8_icerik{
+    display: block;
+    justify-content: center;
+    text-align: center;
+} 
